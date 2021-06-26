@@ -1,0 +1,59 @@
+#inputText::placeholder {
+    text-align:center;
+    color: #0082D4;
+    background-image: url('./add-blue.svg');
+    background-size:11px 15px;
+    background-repeat: no-repeat;
+    background-position: 10px 1px;
+}
+
+#inputText {
+    border-color: #E2E7EC;
+    background-color: #FFF;
+    padding: 0px;
+    margin-right: 10px;
+    height: 30px;
+    width: 70%;
+    position: relative;
+    border: 1px solid #cdcdcd;
+    font-size: 13px;
+    outline: none;
+}
+
+.button-add, .bttn-sort {
+    background-color: #0082D4;
+    border: 1px solid #0082D4;
+    height: 31px;
+    width: 12%;
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.bttn-sort {
+    text-align: center;
+}
+
+.sortDown {
+    background-image: url('caretDown.png');
+    background-position: 55px 5px;
+    background-size: 12px 17px;
+    background-repeat: no-repeat;
+}
+
+.sortUp {
+    background-image: url('caretUp.png');
+    background-position: 55px 5px;
+    background-size: 12px 17px;
+    background-repeat: no-repeat;
+}
+
+.form-task {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    display:flex;
+    flex-direction: row;
+}

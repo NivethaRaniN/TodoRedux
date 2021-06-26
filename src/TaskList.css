@@ -1,0 +1,44 @@
+.complete-text {
+    text-decoration: line-through;
+}
+
+.task-Parent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.list-Tasks {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.todo-tasks {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.completed-tasks {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.parent-flex {
+    display:flex;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+    background-color:#FCFCFC;
+    position:absolute;
+}
+
+.task-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width:100%;
+}
